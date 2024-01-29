@@ -148,7 +148,7 @@ df_1.fillna(method='ffill', inplace=True)
 
 # Plot the time series of the Adjusted Close
 plt.figure(figsize=(10, 6))
-df['Adj Close'].plot(label='Adjusted Close', color='blue')
+df_1['Adj Close'].plot(label='Adjusted Close', color='blue')
 plt.title('Time Series of Adjusted Close')
 plt.xlabel('Date')
 plt.ylabel('Adjusted Close')
